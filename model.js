@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
-var uri = 'mongodb://username:password@hostname:port/databasename';
+var url = 'mongodb://username:password@hostname:port/databasename';
 //也可以直接
-uri = 'mongodb://localhost/cmsdb';
+url = 'mongodb://localhost/cmsdb';
 
-mongoose.connect(uri);
+mongoose.connect(url);
 
 
 //定义数据结构
